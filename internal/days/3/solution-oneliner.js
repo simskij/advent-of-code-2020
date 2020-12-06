@@ -1,0 +1,1 @@
+require('fs').readFile('data', (e, data) => [[[1,3]], [[1, 1],[1, 3],[1, 5],[1, 7],[2, 1],]].forEach((v, vi) => console.log(`Part ${vi}: `, v.reduce((a, c) => a * ((yi, xi, col = 0) => data.toString().split('\n').filter((_, i) => i != 0 && i % yi === 0).reduce((ia, n, i) => ia += n[(col += xi) % n.length] === '#' ? 1 : 0, 0))(c[0], c[1]), 1))));
