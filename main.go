@@ -17,6 +17,7 @@ import (
 	day7 "github.com/simskij/advent-of-code-2020/internal/days/7"
 	day8 "github.com/simskij/advent-of-code-2020/internal/days/8"
 	day9 "github.com/simskij/advent-of-code-2020/internal/days/9"
+	day10 "github.com/simskij/advent-of-code-2020/internal/days/10"
 	"github.com/simskij/advent-of-code-2020/internal/types"
 )
 
@@ -34,6 +35,7 @@ func main() {
 		WithDuration(day7.GetSolution),
 		WithDuration(day8.GetSolution),
 		WithDuration(day9.GetSolution),
+		WithDuration(day10.GetSolution),
 	}
 
 	fmt.Println("\n✨ Advent of Code 2020 ✨\n ")

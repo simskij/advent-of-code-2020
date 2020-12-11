@@ -66,8 +66,6 @@ func findIndexOfTerms(numbers []int, weak int) (int, int) {
 }
 
 func findWeakNumber(numbers []int) int {
-
-
 	for i, n := range numbers {
 		if i < 25 {
 			continue
