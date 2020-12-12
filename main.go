@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	day11 "github.com/simskij/advent-of-code-2020/internal/days/11"
+	day12 "github.com/simskij/advent-of-code-2020/internal/days/12"
 	"os"
 	"text/tabwriter"
 	"time"
@@ -36,6 +38,8 @@ func main() {
 		WithDuration(day8.GetSolution),
 		WithDuration(day9.GetSolution),
 		WithDuration(day10.GetSolution),
+		WithDuration(day11.GetSolution),
+		WithDuration(day12.GetSolution),
 	}
 
 	fmt.Println("\n✨ Advent of Code 2020 ✨\n ")
